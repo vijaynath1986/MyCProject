@@ -5,6 +5,7 @@
 int main(){
 
   int res1, res2, res3;
+  float resf;
   printf("\nMain function");
 
 
@@ -17,7 +18,7 @@ int main(){
   printf("\nAddition integer done - %d", res3);
 
   /*Addition float*/
-  res2 = add_float(5.5,6.6);
-  printf("\nAddition floating point done - %d", res2);
+  resf = add_float(5.5,6.6);
+  printf("\nAddition floating point done - %f", resf);
 
 }
