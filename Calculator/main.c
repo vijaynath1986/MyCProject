@@ -1,7 +1,11 @@
 #include "stdio.h"
+#include "sub.h"
 
 
 int main(){
 
-  printf("Main function");
+  int res;
+  printf("\nMain function");
+  res = sub(10, 2);
+  printf("\nSubtraction done - %d", res);
 }
