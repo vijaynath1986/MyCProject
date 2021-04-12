@@ -23,4 +23,6 @@ int main(){
   printf("\nAddition floating point done - %f", resf);
 
   printf("\nEnd of Main function");
+
+  printf("\nLets add Division");
 }
