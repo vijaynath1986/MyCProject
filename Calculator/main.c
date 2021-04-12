@@ -24,4 +24,5 @@ int main(){
   resf2 = sub_float(20.22f, 1.12f);
   printf("\nSubtraction float done - %f", resf2);
 
+  printf("\nEnd of Main function");
 }
