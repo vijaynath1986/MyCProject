@@ -1,5 +1,6 @@
 #include "stdio.h"
 #include "add.h"
+#include "sub.h"
 
 
 int main(){
@@ -21,4 +22,5 @@ int main(){
   resf = add_float(5.5,6.6);
   printf("\nAddition floating point done - %f", resf);
 
+  printf("\nEnd of Main function");
 }
